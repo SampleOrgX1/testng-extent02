@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T21:35:52 IST" name="Suite" finished-at="2024-04-10T21:38:58 IST" duration-ms="186530">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T21:35:52 IST" name="Test" finished-at="2024-04-10T21:38:58 IST" duration-ms="186530">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@71178a52]" started-at="2024-04-10T21:35:53 IST" name="classLevelSetup" finished-at="2024-04-10T21:36:00 IST" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@71178a52]" started-at="2024-04-10T21:36:00 IST" name="methodLevelSetup" finished-at="2024-04-10T21:36:00 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@71178a52]" started-at="2024-04-10T21:36:01 IST" name="validLoginTest" description="valid Login Scenario with wrong username and password." finished-at="2024-04-10T21:38:58 IST" duration-ms="177200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.validLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@71178a52]" started-at="2024-04-10T21:38:58 IST" name="teardown" finished-at="2024-04-10T21:38:58 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
