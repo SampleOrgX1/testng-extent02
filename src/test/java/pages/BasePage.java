@@ -12,7 +12,7 @@ public class BasePage {
 
 	public WebDriver driver;
     public WebDriverWait wait;
-    
+
     //Constructor
     public BasePage(WebDriver driver) {
         this.driver = driver;

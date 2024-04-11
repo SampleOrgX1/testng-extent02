@@ -6,9 +6,9 @@ import org.openqa.selenium.WebDriver;
 import extent.util.Log;
 
 public class HomePage extends BasePage {
-    
+
 	WebDriver driver;
-	
+
     // Constructor
     public HomePage(WebDriver driver) {
         super(driver);
@@ -31,7 +31,7 @@ public class HomePage extends BasePage {
         driver.get(baseURL);
         return this;
     }
-    
+
     public HomePage LoginToApp() throws InterruptedException {
     	Log.info("user enter data");
     	writeText(username, "Admin");
