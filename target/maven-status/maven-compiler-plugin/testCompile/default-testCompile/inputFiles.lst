@@ -3,6 +3,8 @@ E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\extent\util\Extent
 E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\extent\util\Log.java
 E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\extent\util\TestListener.java
 E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\pages\BasePage.java
-E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\pages\HomePage.java
+E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\pages\OrangeHomePage.java
+E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\pages\SnipITLoginPage.java
 E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\tests\BaseTest.java
 E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\tests\LoginTests.java
+E:\EclipseProjects\demo-jenkins\testng-extent02\src\test\java\tests\SnipeITLoginTest.java

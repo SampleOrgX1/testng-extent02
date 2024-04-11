@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 import extent.util.Log;
 
-public class HomePage extends BasePage {
+public class OrangeHomePage extends BasePage {
 
 	WebDriver driver;
 
     // Constructor
-    public HomePage(WebDriver driver) {
+    public OrangeHomePage(WebDriver driver) {
         super(driver);
         this.driver =driver;
     }
@@ -26,13 +26,13 @@ public class HomePage extends BasePage {
 
     // Page Methods
     //Go to Homepage
-    public HomePage goToN11() {
+    public OrangeHomePage goToN11() {
         Log.info("Opening HRM Website.");
         driver.get(baseURL);
         return this;
     }
 
-    public HomePage LoginToApp() throws InterruptedException {
+    public OrangeHomePage LoginToApp() throws InterruptedException {
     	Log.info("user enter data");
     	writeText(username, "Admin");
     	writeText(password, "admin123");

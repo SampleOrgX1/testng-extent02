@@ -1,8 +1,10 @@
 extent\util\TestListener.class
 pages\BasePage.class
 tests\LoginTests.class
-pages\HomePage.class
+tests\SnipeITLoginTest.class
 extent\util\ExtentManager.class
+pages\OrangeHomePage.class
 tests\BaseTest.class
 extent\util\Log.class
 extent\util\ExtentTestManager.class
+pages\SnipITLoginPage.class

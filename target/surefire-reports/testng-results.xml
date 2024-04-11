@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-11T12:54:59 IST" name="Suite" finished-at="2024-04-11T12:55:30 IST" duration-ms="30656">
+  <suite started-at="2024-04-11T15:22:46 IST" name="Suite" finished-at="2024-04-11T15:23:17 IST" duration-ms="30640">
     <groups>
     </groups>
-    <test started-at="2024-04-11T12:54:59 IST" name="Test" finished-at="2024-04-11T12:55:30 IST" duration-ms="30656">
+    <test started-at="2024-04-11T15:22:46 IST" name="Test" finished-at="2024-04-11T15:23:17 IST" duration-ms="30640">
       <class name="tests.LoginTests">
-        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@1c025cb]" started-at="2024-04-11T12:55:01 IST" name="classLevelSetup" finished-at="2024-04-11T12:55:08 IST" duration-ms="7439" status="PASS">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@7428de63]" started-at="2024-04-11T15:22:48 IST" name="classLevelSetup" finished-at="2024-04-11T15:22:52 IST" duration-ms="4934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classLevelSetup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@1c025cb]" started-at="2024-04-11T12:55:08 IST" name="methodLevelSetup" finished-at="2024-04-11T12:55:08 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@7428de63]" started-at="2024-04-11T15:22:53 IST" name="methodLevelSetup" finished-at="2024-04-11T15:22:53 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@1c025cb]" started-at="2024-04-11T12:55:08 IST" name="validLoginTest" description="valid Login Scenario with wrong username and password." finished-at="2024-04-11T12:55:29 IST" duration-ms="21120" status="PASS">
+        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@7428de63]" started-at="2024-04-11T15:22:53 IST" name="validLoginTest" description="valid Login Scenario with wrong username and password." finished-at="2024-04-11T15:23:17 IST" duration-ms="23543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@1c025cb]" started-at="2024-04-11T12:55:29 IST" name="teardown" finished-at="2024-04-11T12:55:30 IST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@7428de63]" started-at="2024-04-11T15:23:17 IST" name="teardown" finished-at="2024-04-11T15:23:17 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.LoginTests -->
+      <class name="tests.SnipeITLoginTest">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@6e57b5e9]" started-at="2024-04-11T15:22:48 IST" name="classLevelSetup" finished-at="2024-04-11T15:22:52 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@6e57b5e9]" started-at="2024-04-11T15:22:53 IST" name="methodLevelSetup" finished-at="2024-04-11T15:22:53 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.SnipeITLoginTest@6e57b5e9]" started-at="2024-04-11T15:22:53 IST" name="validLoginTest" description="SnipeIT Login Scenario with valid username and password." finished-at="2024-04-11T15:23:04 IST" duration-ms="11168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SnipeITLoginTest.validLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SnipeITLoginTest@6e57b5e9]" started-at="2024-04-11T15:23:04 IST" name="teardown" finished-at="2024-04-11T15:23:05 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SnipeITLoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
