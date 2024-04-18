@@ -27,7 +27,7 @@ public class SnipeITLoginTest extends BaseTest {
 		   .waitVisibility(SnipITPage.userLoginDropDown);
         Thread.sleep(3000);
 
-        System.out.println("Taking screenshot of admin page");
+        System.out.println("Taking SnipeIT screenshot of admin page");
 
         String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot)(driver)).getScreenshotAs(OutputType.BASE64);
         ExtentTestManager.getTest().log(Status.PASS, "Test Pass", ExtentTestManager.getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));

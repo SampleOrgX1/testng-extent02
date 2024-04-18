@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="true" name="Suite">
+<suite  name="Extent Impl Suite">
 	 <listeners>
         <listener class-name="extent.util.TestListener"></listener>
     </listeners>
-  <test name="Test">
+  <test name="Test" parallel="classes"  thread-count="2" >
     <classes>
       <class name="tests.LoginTests"/>
       <class name="tests.SnipeITLoginTest"/>
