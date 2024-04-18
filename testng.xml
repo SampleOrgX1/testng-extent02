@@ -6,16 +6,16 @@
   <test name="Test1"  >
     <classes>
       <class name="tests.LoginTests"/>
-<!--      <class name="tests.SnipeITLoginTest"/>-->
+      <class name="tests.SnipeITLoginTest"/>
     </classes>
   </test> <!-- Test -->
   
-  <test name="Test2" >
+ <!-- <test name="Test2" >
     <classes>
      
       <class name="tests.SnipeITLoginTest"/>
     </classes>
-  </test>  Test 
+  </test> -->
   
   
 </suite> <!-- Suite -->

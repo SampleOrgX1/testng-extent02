@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Extent_Impl_Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -168,20 +168,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Extent Impl Suite&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Extent Impl Suite&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;extent.util.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test1&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Test1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Test2&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
       &lt;class name=&quot;tests.SnipeITLoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Extent Impl Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,10 +189,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test2 (1 class)</span>
+                <span class="test-name">Test1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,16 +219,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validHRMLoginTest')
 data.setCell(0, 2, 'tests.LoginTests')
-data.setCell(0, 3, 19857);
+data.setCell(0, 3, 17953);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validSnipeITLoginTest')
 data.setCell(1, 2, 'tests.SnipeITLoginTest')
-data.setCell(1, 3, 10719);
+data.setCell(1, 3, 17542);
 window.suiteTableData['Extent_Impl_Suite']= { tableData: data, tableDiv: 'times-div-Extent_Impl_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Extent_Impl_Suite">
               </div> <!-- times-div-Extent_Impl_Suite -->
             </div> <!-- times-div -->
@@ -261,13 +254,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">classLevelSetup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">tests.SnipeITLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">classLevelSetup</span>
@@ -276,41 +262,45 @@ return data;
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classLevelSetup</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetup</span>
-                <span class="method-start">2794 ms</span>
+                <span class="method-start">4720 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SnipeITLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetup</span>
-                <span class="method-start">2794 ms</span>
+                <span class="method-start">4722 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validSnipeITLoginTest(public void tests.SnipeITLoginTest.validSnipeITLoginTest(java.lang.reflect.Method) throws java.lang....)</span>
+                <span class="method-start">5080 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validHRMLoginTest(public void tests.LoginTests.validHRMLoginTest(java.lang.reflect.Method) throws java.lang.Interrupte...)</span>
-                <span class="method-start">2986 ms</span>
+                <span class="method-start">5080 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SnipeITLoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validSnipeITLoginTest(public void tests.SnipeITLoginTest.validSnipeITLoginTest(java.lang.reflect.Method) throws java.lang....)</span>
-                <span class="method-start">2986 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13723 ms</span>
+                <span class="method-start">22649 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">22846 ms</span>
+                <span class="method-start">23040 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -135,7 +135,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-				
+				    <parallel>classes</parallel>
+                    <threadCount>4</threadCount>
+                    <forkCount>2</forkCount>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
