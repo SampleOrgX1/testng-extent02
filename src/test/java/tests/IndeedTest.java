@@ -35,7 +35,7 @@ public class IndeedTest {
 	    driver.findElement(By.name("__password")).sendKeys("Test@1234");
 	    driver.findElement(By.xpath("//button[@data-tn-element='auth-page-sign-in-password-form-submit-button']")).click();
 	    Thread.sleep(2000);
-	    System.out.println("Try to git test");
+	    System.out.println("Try to git test1...");
 	    
 	    
 	    //
