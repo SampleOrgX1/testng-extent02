@@ -17,7 +17,7 @@ public class LoginTests extends BaseTest {
 
 
 	@Test(priority = 0, description = "Orange Valid Login Test")
-    public void validLoginTest(Method method) throws InterruptedException {
+    public void validHRMLoginTest(Method method) throws InterruptedException {
 
 		startTest(method.getName(), "Orange Valid Login Test");
         homePage.goToN11().LoginToApp();
