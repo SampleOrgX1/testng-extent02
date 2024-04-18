@@ -20,7 +20,7 @@ public class SnipeITLoginTest extends BaseTest {
 	@Test(priority = 0, description = "SnipeIT Login Scenario with valid cred.")
     public void validSnipeITLoginTest(Method method) throws InterruptedException {
 
-		startTest(method.getName(), "SnipeIT Valid Login");
+		startTest(method.getName(), "SnipeIT Valid Login ...");
 		System.out.println(method.getName()+" Started ...");
 		SnipITPage
 		   .goToSnipeITHome()
