@@ -21,7 +21,7 @@ public class SnipeITLoginTest extends BaseTest {
     public void validSnipeITLoginTest(Method method) throws InterruptedException {
 
 		startTest(method.getName(), "SnipeIT Valid Login ...");
-		System.out.println(method.getName()+" Started ...");
+		System.out.println(method.getName()+" Started ......");
 		SnipITPage
 		   .goToSnipeITHome()
 		   .LoginToSnipeIT("admin","password")
