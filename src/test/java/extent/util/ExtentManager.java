@@ -9,6 +9,7 @@ public class ExtentManager {
 
     public synchronized static ExtentReports createExtentReports() {
         ExtentSparkReporter reporter = new ExtentSparkReporter("./extent-report.html");
+        reporter.config().thumbnailForBase64(true);
         reporter.config().setReportName("Sample Extent Report");
         extentReports.attachReporter(reporter);
         extentReports.setSystemInfo("Blog Name", "SW Test Academy");

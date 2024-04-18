@@ -4,6 +4,7 @@ tests\LoginTests.class
 tests\SnipeITLoginTest.class
 extent\util\ExtentManager.class
 pages\OrangeHomePage.class
+tests\IndeedTest.class
 tests\BaseTest.class
 extent\util\Log.class
 extent\util\ExtentTestManager.class

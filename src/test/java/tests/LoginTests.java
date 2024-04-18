@@ -27,5 +27,7 @@ public class LoginTests extends BaseTest {
 
         String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot)(driver)).getScreenshotAs(OutputType.BASE64);
         ExtentTestManager.getTest().log(Status.PASS, "Test Pass", ExtentTestManager.getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));
-    }
+
+       ExtentTestManager.getTest().info("Some Test case");
+	}
 }
