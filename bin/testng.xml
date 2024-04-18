@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite  name="Extent Impl Suite" parallel="tests" thread-count="2">
+<suite  name="Extent Impl Suite" parallel="classes"  thread-count="2">
 	 <listeners>
         <listener class-name="extent.util.TestListener"></listener>
     </listeners>
   <test name="Test1"  >
     <classes>
       <class name="tests.LoginTests"/>
-<!--      <class name="tests.SnipeITLoginTest"/>-->
+      <class name="tests.SnipeITLoginTest"/>
     </classes>
   </test> <!-- Test -->
   
-  <test name="Test2" >
+  <!--<test name="Test2" parallel="classes"  thread-count="2" >
     <classes>
-     
+      <class name="tests.LoginTests"/>
       <class name="tests.SnipeITLoginTest"/>
     </classes>
-  </test>  Test 
+  </test>  Test -->
   
   
 </suite> <!-- Suite -->

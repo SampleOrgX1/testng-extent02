@@ -2,45 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T13:13:13 IST" name="Extent Impl Suite" finished-at="2024-04-18T13:13:36 IST" duration-ms="23369">
+  <suite started-at="2024-04-18T13:52:35 IST" name="Extent Impl Suite" finished-at="2024-04-18T13:52:59 IST" duration-ms="24045">
     <groups>
     </groups>
-    <test started-at="2024-04-18T13:13:13 IST" name="Test" finished-at="2024-04-18T13:13:36 IST" duration-ms="23369">
-      <class name="tests.LoginTests">
-        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@69d6a7cd]" started-at="2024-04-18T13:13:14 IST" name="classLevelSetup" finished-at="2024-04-18T13:13:16 IST" duration-ms="2325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classLevelSetup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@69d6a7cd]" started-at="2024-04-18T13:13:16 IST" name="methodLevelSetup" finished-at="2024-04-18T13:13:16 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="validHRMLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@69d6a7cd]" started-at="2024-04-18T13:13:16 IST" name="validHRMLoginTest" description="Orange Valid Login Test" finished-at="2024-04-18T13:13:36 IST" duration-ms="19746" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.LoginTests.validHRMLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validHRMLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@69d6a7cd]" started-at="2024-04-18T13:13:36 IST" name="teardown" finished-at="2024-04-18T13:13:36 IST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.LoginTests -->
+    <test started-at="2024-04-18T13:52:35 IST" name="Test2" finished-at="2024-04-18T13:52:50 IST" duration-ms="15056">
       <class name="tests.SnipeITLoginTest">
-        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@47547132]" started-at="2024-04-18T13:13:14 IST" name="classLevelSetup" finished-at="2024-04-18T13:13:16 IST" duration-ms="2325" status="PASS">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@16073fa8]" started-at="2024-04-18T13:52:36 IST" name="classLevelSetup" finished-at="2024-04-18T13:52:38 IST" duration-ms="2761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classLevelSetup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@47547132]" started-at="2024-04-18T13:13:16 IST" name="methodLevelSetup" finished-at="2024-04-18T13:13:16 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.SnipeITLoginTest@16073fa8]" started-at="2024-04-18T13:52:38 IST" name="methodLevelSetup" finished-at="2024-04-18T13:52:38 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="validSnipeITLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.SnipeITLoginTest@47547132]" started-at="2024-04-18T13:13:16 IST" name="validSnipeITLoginTest" description="SnipeIT Login Scenario with valid cred." finished-at="2024-04-18T13:13:29 IST" duration-ms="12581" status="PASS">
+        <test-method signature="validSnipeITLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.SnipeITLoginTest@16073fa8]" started-at="2024-04-18T13:52:39 IST" name="validSnipeITLoginTest" description="SnipeIT Login Scenario with valid cred." finished-at="2024-04-18T13:52:49 IST" duration-ms="10719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,11 +26,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validSnipeITLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SnipeITLoginTest@47547132]" started-at="2024-04-18T13:13:29 IST" name="teardown" finished-at="2024-04-18T13:13:29 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SnipeITLoginTest@16073fa8]" started-at="2024-04-18T13:52:49 IST" name="teardown" finished-at="2024-04-18T13:52:50 IST" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.SnipeITLoginTest -->
-    </test> <!-- Test -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-04-18T13:52:35 IST" name="Test1" finished-at="2024-04-18T13:52:59 IST" duration-ms="24045">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@cc239ba]" started-at="2024-04-18T13:52:36 IST" name="classLevelSetup" finished-at="2024-04-18T13:52:38 IST" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@cc239ba]" started-at="2024-04-18T13:52:38 IST" name="methodLevelSetup" finished-at="2024-04-18T13:52:38 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validHRMLoginTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@cc239ba]" started-at="2024-04-18T13:52:39 IST" name="validHRMLoginTest" description="Orange Valid Login Test" finished-at="2024-04-18T13:52:59 IST" duration-ms="19857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.validHRMLoginTest(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHRMLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@cc239ba]" started-at="2024-04-18T13:52:59 IST" name="teardown" finished-at="2024-04-18T13:52:59 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Test1 -->
   </suite> <!-- Extent Impl Suite -->
 </testng-results>

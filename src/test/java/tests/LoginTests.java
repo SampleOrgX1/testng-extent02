@@ -20,8 +20,9 @@ public class LoginTests extends BaseTest {
     public void validHRMLoginTest(Method method) throws InterruptedException {
 
 		startTest(method.getName(), "Orange Valid Login Test");
+		System.out.println(method.getName()+" Started ...");
         homePage.goToN11().LoginToApp();
-        Thread.sleep(7000);
+        Thread.sleep(3000);
 
         System.out.println("Taking HRM screenshot of admin page");
 
